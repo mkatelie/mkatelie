@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>MK CONFEITARIA</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-cookie" id="nav_logo"> MK CONFEITARIA ARTESANAL</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    O sabor que vai até
+                    <span>você</span>
+                </h1>
+
+                <p class="description">
+                    <h1>A Melhor confeitaria de Planaltina-GO <P>
+                        faca sua encomenda
+                    </P></h1>
+                    mkcakesatelie@gmail.com
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Ver cardápio
+                    </a>
+
+                    <a href="tel:+55555555555" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (61) 99500-6395
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="https://w.app/cijk9v">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/mkcakesatelie?igsh=YW0xdW55aW45d3E5">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="src/images/hero.png" alt="">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h1 class="section-title">Cardápio</h1>
+            <h3 class="section-subtitle">Nossos principais produtos</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="c:\Users\Usuário\Downloads\WhatsApp Image 2024-12-22 at 20.24.11.jpeg"  width="210px" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Tapioca completa
+                    </h3>
+
+                    <span class="dish-description">
+                        Tapioca com crosta de queijo; Recheada com carne seca desfiada, queijo Mussarela ralada e ovo frito.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(50+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$16,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="c:\Users\Usuário\Downloads\WhatsApp Image 2024-12-22 at 20.24.13 (2).jpeg" width="230px"  height="450px"  class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Empandão de carne seca
+                    </h3>
+
+                    <span class="dish-description">
+                        Empadão de massa quebradiça, recheio de carne seca com requeijão
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(50+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$11,99</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="/landing-page-food-theme-main/src/images/COOKIE.jpeg" width="230px"  height="450px"  class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Cookie Recheado
+                    </h3>
+
+                    <span class="dish-description">
+                        Cookie tradicional com gotas de chocolate; Recheado com Brigadeiro cremoso.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(70+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$12,50</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="c:\Users\Usuário\Downloads\WhatsApp Image 2024-12-11 at 16.50.56.jpeg" width="230px"  height="450px" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Brownie Chocolatudo
+                    </h3>
+
+                    <span class="dish-description">
+                        Massa com bastante chocolate; cobertura de Brigadeiro
+                        cremoso e decorado com granulado e morango fresco
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$12,99</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="c:\Users\Usuário\Downloads\WhatsApp Image 2024-12-27 at 18.12.59.jpeg" width="230px"  height="450px" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Pão de Calabresa com Requeijão.
+                    </h3>
+
+                    <span class="dish-description">
+                        Pão Recheado com Calabresa e requeijão.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$9,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="menu">
+            <h1 class="section-title">Mais produtos</h1>
+            <h3 class="section-subtitle"></h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="c:\Users\Usuário\Downloads\WhatsApp Image 2024-12-27 at 19.26.37.jpeg"  width="210px" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Empadão de Frango (P)
+                    </h3>
+
+                    <span class="dish-description">
+                    Massa quebradiça, Recheio de Frango cremoso com Requeijão; azeitona e milho.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(50+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$10,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="c:\Users\Usuário\Downloads\WhatsApp Image 2024-12-22 at 20.24.13 (2).jpeg" width="230px"  height="450px"  class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        E
+                    </h3>
+
+                    <span class="dish-description">
+                        Empadão de massa quebradiça, recheio de carne seca com requeijão
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(50+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$11,99</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="c:\Users\Usuário\Downloads\WhatsApp Image 2024-12-11 at 16.50.56 (1).jpeg" width="230px"  height="450px"  class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Cookie Recheado
+                    </h3>
+
+                    <span class="dish-description">
+                        Cookie tradicional com gotas de chocolate; Recheado com Brigadeiro cremoso.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(70+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$12,50</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="c:\Users\Usuário\Downloads\WhatsApp Image 2024-12-11 at 16.50.56.jpeg" width="230px"  height="450px" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Brownie Chocolatudo
+                    </h3>
+
+                    <span class="dish-description">
+                        Massa com bastante chocolate; cobertura de Brigadeiro
+                        cremoso e decorado com granulado e morango fresco
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$12,99</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="/landing-page-food-theme-main/src/images/PAO DE CA.jpeg" width="230px"  height="450px" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Pão de Calabresa com Requeijão.
+                    </h3>
+
+                    <span class="dish-description">
+                        Pão Recheado com Calabresa e requeijão.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$9,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="testimonials">
+            <img src="src/images/chef.png" id="testimonial_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Cliente 
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Muito gostoso, todos gostaram, principalmente a minha sogra que não pode
+                                com glúten, ela amou."
+                            </p> 
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                cliente
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Tem nem palavras pra isso, um espetáculo."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback">
+                    <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+
+                    <div class="feedback-content">
+                        <p>
+                            cliente
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </p>
+                        <p>
+                            "Eh viciante, amei."
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 @iamandrebastto
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="https://w.app/58hXIf">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="https://www.instagram.com/mkcakesatelie?igsh=YW0xdW55aW45d3E5">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
